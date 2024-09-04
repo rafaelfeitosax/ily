@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #c90066;
+    margin: 0;
+}
+
+#noButton {
+    position: absolute;
+    left: 50%; /* Centraliza o botão Não */
+    transform: translateX(-100%); /* Move o botão Não para a esquerda */
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    left: 50%; /* Centraliza o botão Sim */
+    transform: translateX(0); /* Move o botão Sim para a direita */
+}
+
+.header_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #e88c3c;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 90px; */
+}
+
